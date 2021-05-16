@@ -11,9 +11,11 @@ function Hero(props) {
             <Container fluid={true}>
                 <Row className="justify-content-center py-5">
                     <Col md={8} sm={12}>
-                        { props.title && <h1 className="display-1 font-weight-bolder">{props.title}</h1> }
-                        { props.subTitle && <h3 className="display-4 font-weight-light">{props.subTitle}</h3> }
-                        { props.text && <h3 className="lead font-weight-light">{props.text}</h3> }
+                        { props.title && <h1 className="display-2 font-weight-bolder">{props.title}</h1> }
+                        { props.subTitle && props.text && <h3 className="quote font-weight-light">{props.subTitle}</h3>}
+                        { props.subTitle && props.aboutTxt && <h3 className="display-6 font-weight-light">{props.subTitle}</h3> }
+                        { props.text && <h3 className="lead font-weight-bolder">{props.text} </h3> }
+                        { props.aboutTxt && <h3 className="lead font-weight-bolder">{props.aboutTxt} &nbsp; &#183; &nbsp; {'(845)367-1148'} &nbsp; &#183; &nbsp; {<a href="mailto::michael5morales5@gmail.com" target="_blank" rel="noopener noreferrer">michael5morales5@gmail.com</a>}</h3> }
                     </Col>
                 </Row>
             </Container>
