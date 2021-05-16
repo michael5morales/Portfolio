@@ -2,6 +2,7 @@
 import React from 'react';
 
 import Hero from '../components/Hero';
+//import {Card, Button} from 'react-bootstrap';
 
 function HomePage(props) {
 
