@@ -1,6 +1,6 @@
 import React from 'react';
 import Hero from '../components/Hero';
-import {Card, Button} from 'react-bootstrap';
+import {Card, ProgressBar} from 'react-bootstrap';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
@@ -41,8 +41,36 @@ function ExperiencePage(props) {
                         </Card>
                     </Col>
                 </Row>
-                <Row className="justify-content-left py-3">
-                    
+                <Row className="justify-content-center py-3">
+                    <Col md={3} sm={12}>
+                        <h3>Languages</h3>
+                        <h6>Java<ProgressBar variant="success" now={90} /></h6>
+                        <h6>Javascript<ProgressBar variant="info" now={80} /></h6>
+                        <h6>C++<ProgressBar variant="warning" now={85} /></h6>
+                        <h6>HTML/CSS<ProgressBar variant="danger" now={75} /></h6>
+                        <h6>C#<ProgressBar variant="success" now={65} /></h6>
+                        <h6>C<ProgressBar variant="info" now={45} /></h6>
+                    </Col>
+                    <Col md={3} sm={12}>
+                        <h3>Frameworks/DBMS</h3>
+                        <h6>React/Node/Express<ProgressBar variant="success" now={85} /></h6>
+                        <h6>MySQL<ProgressBar variant="warning" now={90} /></h6>
+                        <h6>TensorFlow/Py Torch<ProgressBar variant="info" now={68} /></h6>
+                        <h6>OpenGL<ProgressBar variant="success" now={60} /></h6>
+                        <h6>Pandas/NumPy/SciPy<ProgressBar variant="danger" now={65} /></h6>
+                        <h6>SQL<ProgressBar variant="info" now={80} /></h6>
+                        <h6>MongoDB<ProgressBar variant="warning" now={85} /></h6>
+                        <h6>Microsoft SQL<ProgressBar variant="danger" now={75} /></h6>
+                        <h6>Spring<ProgressBar variant="success" now={55} /></h6>
+                    </Col>
+                    <Col md={3} sm={12}>
+                        <h3>Platforms</h3>
+                        <h6>FireBase<ProgressBar variant="success" now={70} /></h6>
+                        <h6>Git<ProgressBar variant="info" now={95} /></h6>
+                        <h6>Heroku<ProgressBar variant="warning" now={70} /></h6>
+                        <h6>Netlify<ProgressBar variant="danger" now={82} /></h6>
+                        <h6>Linux<ProgressBar variant="success" now={85} /></h6>
+                    </Col>
                 </Row>
             </Container>
 

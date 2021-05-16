@@ -16,3 +16,7 @@ code {
   font-family: 'B612';
   color: #474747
 }
+
+.progress {
+  height: 5px !important;
+}
