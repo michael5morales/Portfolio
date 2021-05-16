@@ -2,6 +2,7 @@ import React from 'react';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import { SocialIcon } from 'react-social-icons';
 
 function Footer() {
 
@@ -10,7 +11,13 @@ function Footer() {
             <Container fluid={true}>
                 <Row className="border-top justify-content-between p-3">
                     <Col className="p-0" md={3} sm={12}>
-                        Michael Morales
+                        <SocialIcon url="https://github.com/michael5morales" />
+                        &nbsp;
+                        <SocialIcon url="https://www.linkedin.com/in/michael-m-481898132/" />
+                        &nbsp;
+                        <SocialIcon url="https://www.facebook.com/michael.morales.jr/" />
+                        &nbsp;
+                        <SocialIcon url="mailto::michael5morales5@gmail.com" />
                     </Col>
                     <Col className="p-0 d-flex justify-content-end" md={3}>
                         This site was made by Michael Morales.

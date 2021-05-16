@@ -17,7 +17,7 @@ function AboutPage(props) {
 
             <p>I'm constantly learning new things. currently those things include gaining experience with MongoDB, React, Express JS, and Node JS</p>
 
-            <p>You can take a look at some of my current and past projects on <a href="https://devgrub.com" target="_blank" rel="noopener noreferrer">Github</a>.</p>
+            <p>You can take a look at some of my current and past projects on <a href="https://github.com/michael5morales" target="_blank" rel="noopener noreferrer">Github</a>.</p>
 
             </Content>
         </div>

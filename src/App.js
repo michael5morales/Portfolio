@@ -21,7 +21,7 @@ class App extends Component{
       { title: 'Contact', path: '/contact' }
     ],
     home: {
-      title: 'Michael Morales - Portfolio',
+      title: 'Michael Morales',
       subTitle: 'Projects',
       text: 'Checkout my latest projects below'
     },
