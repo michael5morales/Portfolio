@@ -11,5 +11,3 @@ This project was created using React.js
 	react-social-icons
 
 
-### `npm start`
-
