@@ -23,7 +23,7 @@ function ExperiencePage(props) {
                                 <Card.Subtitle className="mb-2 text-muted">Stony Brook University Campus Residencies Marketing</Card.Subtitle>
                                 <Card.Subtitle className="mb-2 text-muted">08.2019 - 05.2021</Card.Subtitle>
                                 <Card.Text>Worked on the Stony Brook University Campus Residencies Marketing Team as a Web Developer and Videographer. 
-                                    Responsible for maintaining and updating the website alongside creating video content for the school’s advertising 
+                                    Responsible for maintaining and updating the website through the OUCampus CMS alongside creating video content for the school’s advertising 
                                     and promoting purposes.</Card.Text>
                             </Card.Body>
                         </Card>
@@ -56,20 +56,18 @@ function ExperiencePage(props) {
                         <h6>React/Node/Express<ProgressBar variant="success" now={85} /></h6>
                         <h6>MySQL<ProgressBar variant="warning" now={90} /></h6>
                         <h6>TensorFlow/Py Torch<ProgressBar variant="info" now={68} /></h6>
-                        <h6>OpenGL<ProgressBar variant="success" now={60} /></h6>
                         <h6>Pandas/NumPy/SciPy<ProgressBar variant="danger" now={65} /></h6>
-                        <h6>SQL<ProgressBar variant="info" now={80} /></h6>
-                        <h6>MongoDB<ProgressBar variant="warning" now={85} /></h6>
-                        <h6>Microsoft SQL<ProgressBar variant="danger" now={75} /></h6>
-                        <h6>Spring<ProgressBar variant="success" now={55} /></h6>
+                        <h6>OpenGL<ProgressBar variant="success" now={60} /></h6>
+                        <h6>MongoDB<ProgressBar variant="warning" now={50} /></h6>
+                        <h6>Spring<ProgressBar variant="success" now={45} /></h6>
                     </Col>
                     <Col md={3} sm={12}>
                         <h3>Platforms</h3>
                         <h6>FireBase<ProgressBar variant="success" now={70} /></h6>
-                        <h6>Git<ProgressBar variant="info" now={95} /></h6>
-                        <h6>Heroku<ProgressBar variant="warning" now={70} /></h6>
-                        <h6>Netlify<ProgressBar variant="danger" now={82} /></h6>
-                        <h6>Linux<ProgressBar variant="success" now={85} /></h6>
+                        <h6>Linux<ProgressBar variant="warning" now={85} /></h6>
+                        <h6>Git<ProgressBar variant="danger" now={95} /></h6>
+                        <h6>Heroku<ProgressBar variant="success" now={70} /></h6>
+                        <h6>Netlify<ProgressBar variant="info" now={82} /></h6>
                     </Col>
                 </Row>
             </Container>

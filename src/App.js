@@ -56,6 +56,10 @@ class App extends Component{
           <Route path="/" exact render={() => <HomePage title={this.state.home.title} subTitle={this.state.home.subTitle} text={this.state.home.text} />} />
           <Route path="/about" exact render={() => <AboutPage title={this.state.about.title} subTitle={this.state.about.subTitle} aboutTxt={this.state.about.aboutTxt} />} />
           <Route path="/experience" exact render={() => <ExperiencePage title={this.state.experience.title} />} />
+          <Route path='/resume' component={() => { 
+              window.location.href = 'https://drive.google.com/file/d/1rfZ4R7dnOycdO8-u1Ezg6kzLdHQPxD7Y/view?usp=sharing'; 
+              return null;
+          }}/>
 
 
           <Footer />
