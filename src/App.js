@@ -22,7 +22,6 @@ class App extends Component{
     ],
     home: {
       title: 'Michael Morales',
-      subTitle: '"To survive is to stay alive in the face of opposition" - Lauryn Hill',
       text: 'Checkout my latest projects below'
     },
     about: {
