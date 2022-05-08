@@ -4,7 +4,6 @@ import {Card, ProgressBar} from 'react-bootstrap';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import { Helmet } from 'react-helmet';
 
 import intern from '../assets/images/internship.png'
 import campRes from '../assets/images/campres.png'
@@ -13,9 +12,6 @@ function ExperiencePage(props) {
 
     return(
         <div>
-            <Helmet>
-                <title>Mike Morales | Experience</title>
-            </Helmet>
             <Hero title={props.title}/>
             <Container fluid={true}>
                 <Row className="justify-content-center py-3">

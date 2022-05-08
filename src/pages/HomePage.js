@@ -5,7 +5,6 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Hero from '../components/Hero';
 import {Card, Button} from 'react-bootstrap';
-import { Helmet } from 'react-helmet';
 
 import extinct from '../assets/images/extinct.png'
 import mast from '../assets/images/mast.png'
@@ -14,9 +13,6 @@ function HomePage(props) {
 
     return(
         <div>
-            <Helmet>
-                <title>Mike Morales | Home</title>
-            </Helmet>
             <Hero title={props.title} subTitle={props.subTitle} text={props.text} />
             <Container>
             <Row className="justify-content-center py-3">
