@@ -9,8 +9,6 @@ import Footer from './components/Footer';
 import HomePage from './pages/HomePage';
 import AboutPage from './pages/AboutPage';
 import ExperiencePage from './pages/ExperiencePage'
-import ContactPage from './pages/ContactPage';
-import PortfolioPage from './pages/PortfolioPage';
 
 
 class App extends Component{
