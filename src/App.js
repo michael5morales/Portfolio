@@ -24,6 +24,7 @@ class App extends Component{
     ],
     home: {
       title: 'Mike Morales',
+      subTitle: '"To survive is to stay alive in the face of opposition" - Lauryn Hill',
       text: 'Checkout my latest projects below'
     },
     about: {
@@ -41,7 +42,7 @@ class App extends Component{
       <Router>
         <Container className="p-0"  fluid={true}>
           <Navbar className="border-bottom" bg="transparent" expand="lg">
-            <Navbar.Brand className="p-2">Michael Morales</Navbar.Brand>
+            <Navbar.Brand className="p-2">Mike Morales</Navbar.Brand>
             <Navbar.Toggle className="border-0" aria-controls="navbar-toggle" />
             <Navbar.Collapse id="navbar-toggle">
               <Nav className="ml-auto">
