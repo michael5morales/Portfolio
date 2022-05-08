@@ -8,7 +8,7 @@ function AboutPage(props) {
         <div>
             <Hero title={props.title} subTitle={props.subTitle} aboutTxt={props.aboutTxt} />
             <Content>
-                <p>Hello, my name is Michael Morales. I am a recent graduate of Stony Brook University, where I earned my B.S. in Computer Science.</p> 
+                <p>Hello, my name is Mike Morales. I am a recent graduate of Stony Brook University, where I earned my B.S. in Computer Science.</p> 
 
                 <p>During my time in undergrad, I worked as a Web Developer on the Stony Brook Campus Residencies Marketing Team.</p>
 
