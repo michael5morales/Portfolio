@@ -1,14 +1,18 @@
 import React from 'react';
 import Hero from '../components/Hero';
 import Content from '../components/Content';
+import { Helmet } from 'react-helmet';
 
 function AboutPage(props) {
 
     return(
         <div>
+            <Helmet>
+                <title>Mike Morales | About</title>
+            </Helmet>
             <Hero title={props.title} subTitle={props.subTitle} aboutTxt={props.aboutTxt} />
             <Content>
-                <p>Hello, my name is Michael Morales. I am a recent graduate of Stony Brook University, where I earned my B.S. in Computer Science.</p> 
+                <p>Hello, my name is Mike Morales. I am a recent graduate of Stony Brook University, where I earned my B.S. in Computer Science.</p> 
 
                 <p>During my time in undergrad, I worked as a Web Developer on the Stony Brook Campus Residencies Marketing Team.</p>
 

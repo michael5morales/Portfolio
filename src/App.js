@@ -9,25 +9,27 @@ import Footer from './components/Footer';
 import HomePage from './pages/HomePage';
 import AboutPage from './pages/AboutPage';
 import ExperiencePage from './pages/ExperiencePage'
+import ContactPage from './pages/ContactPage';
+import PortfolioPage from './pages/PortfolioPage';
 
 
 class App extends Component{
 
   state = {
-    title: 'Michael Morales',
+    title: 'Mike Morales',
     headerLinks: [
       { title: 'Home', path: '/' },
       { title: 'About', path: '/about' },
       { title: 'Contact', path: '/contact' }
     ],
     home: {
-      title: 'Michael Morales',
+      title: 'Mike Morales',
       text: 'Checkout my latest projects below'
     },
     about: {
       title: 'About Me',
       subTitle: 'Software Engineer',
-      aboutTxt: 'Blauvelt, NY'
+      aboutTxt: 'Dallas, TX'
     },
     experience: {
       title: 'Skills & Experience'
