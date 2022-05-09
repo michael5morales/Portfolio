@@ -13,7 +13,7 @@ function HomePage(props) {
 
     return(
         <div>
-            <Hero title={props.title} subTitle={props.subTitle} text={props.text} />
+            <Hero title={props.title} intro={props.intro} text={props.text} />
             <Container>
             <Row className="justify-content-center py-3">
                     <Col md={3} sm={12}>

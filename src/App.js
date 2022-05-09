@@ -10,6 +10,7 @@ import HomePage from './pages/HomePage';
 import AboutPage from './pages/AboutPage';
 import ExperiencePage from './pages/ExperiencePage'
 
+import logo from './assets/images/logo/full_dark_logo_transparant.png';
 
 class App extends Component{
 
@@ -21,8 +22,8 @@ class App extends Component{
       { title: 'Contact', path: '/contact' }
     ],
     home: {
+      intro: "Hi, my name is",
       title: 'Mike Morales',
-      subTitle: '"To survive is to stay alive in the face of opposition" - Lauryn Hill',
       text: 'Checkout my latest projects below'
     },
     about: {
@@ -40,7 +41,11 @@ class App extends Component{
       <Router>
         <Container className="p-0"  fluid={true}>
           <Navbar className="border-bottom" bg="transparent" expand="lg">
-            <Navbar.Brand className="p-2">Mike Morales</Navbar.Brand>
+          <Container>
+          <Navbar.Brand href="/">
+            <img src={logo} alt="Mike Morales" width="30%" height="30%"/>
+          </Navbar.Brand>
+          </Container>
             <Navbar.Toggle className="border-0" aria-controls="navbar-toggle" />
             <Navbar.Collapse id="navbar-toggle">
               <Nav className="ml-auto">
@@ -53,7 +58,7 @@ class App extends Component{
 
           </Navbar>
 
-          <Route path="/" exact render={() => <HomePage title={this.state.home.title} subTitle={this.state.home.subTitle} text={this.state.home.text} />} />
+          <Route path="/" exact render={() => <HomePage intro={this.state.home.intro} title={this.state.home.title} text={this.state.home.text} />} />
           <Route path="/about" exact render={() => <AboutPage title={this.state.about.title} subTitle={this.state.about.subTitle} aboutTxt={this.state.about.aboutTxt} />} />
           <Route path="/experience" exact render={() => <ExperiencePage title={this.state.experience.title} />} />
           <Route path='/resume' component={() => { 
