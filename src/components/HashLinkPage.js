@@ -6,7 +6,7 @@ import Col from 'react-bootstrap/Col';
 import Hero from './Hero';
 import {Card, Button} from 'react-bootstrap';
 import Content from './Content';
-import Jumbotron from 'react-bootstrap/Jumbotron';
+import Contact from './Contact';
 
 
 
@@ -83,6 +83,13 @@ function HashLinkPage(props) {
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+
+            <div id="contact" className="contact-form-section">
+                <Hero title="Contact Me"/>
+                <Container>
+                    <Contact/>
+                </Container>
             </div>
         </div>
     );

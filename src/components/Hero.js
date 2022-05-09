@@ -9,7 +9,7 @@ function Hero(props) {
     return(
         <Jumbotron className="bg-transparent jumbotron-fluid p-0">
             <Container fluid={true}>
-                <Row className="justify-content-center py-5">
+                <Row className="justify-content-center py-4">
                     <Col md={8} sm={12}>
                         {props.intro && <h5 className="display-7">{props.intro}</h5>}
                         { props.title && <h1 className="display-2 font-weight-bolder">{props.title}</h1> }

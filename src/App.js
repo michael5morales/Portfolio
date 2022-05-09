@@ -32,7 +32,16 @@ class App extends Component{
     },
     experience: {
       title: 'Skills & Experience'
-    }
+    },
+    name: '',
+    nameError: false,
+    contact: '',
+    email: '',
+    emailError: false,
+    emailError2: false,
+    message: '',
+    messageError: false,
+    formValid: false
   };
 
   render() {
@@ -52,19 +61,11 @@ class App extends Component{
                 <HashLink className="nav-link" smooth to={'/#experience'}>Experience</HashLink>
                 <HashLink className="nav-link" smooth to={'/#about'}>Resume</HashLink>
                 <HashLink className="nav-link" smooth to={'/#about'}>About</HashLink>
+                <HashLink className="nav-link" smooth to={'/#contact'}>Contact Me</HashLink>
               </Nav>
             </Navbar.Collapse>
-
           </Navbar>
-
-          {/* <Route path="/about" component={Container}
-            onEnter={function(){
-              document.getElementById("about").scrollIntoView();
-            }
-          }/> */}
-          {/* <Route path="/home" exact render={() => <HomePage intro={this.state.home.intro} title={this.state.home.title} text={this.state.home.text} />} />
-          <Route path="/about" exact render={() => <AboutPage title={this.state.about.title} subTitle={this.state.about.subTitle} aboutTxt={this.state.about.aboutTxt} />} />
-          <Route path="/experience" exact render={() => <ExperiencePage title={this.state.experience.title} />} /> */}
+          
           <Route path='/resume' component={() => { 
               window.location.href = 'https://drive.google.com/file/d/1rfZ4R7dnOycdO8-u1Ezg6kzLdHQPxD7Y/view?usp=sharing'; 
               return null;
