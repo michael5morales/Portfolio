@@ -10,6 +10,7 @@ import Footer from './components/Footer';
 import HashLinkPage from './components/HashLinkPage';
 
 
+import logo from './assets/images/logo/full_dark_logo_transparant.png';
 
 class App extends Component{
 
