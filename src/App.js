@@ -50,19 +50,19 @@ class App extends Component{
       <Router>
         <Container className="ml-auto"  fluid={true}>
           <Navbar className="ml-auto" expand="lg" fixed="top">
-            <Navbar.Brand className="navbar-brand" >Mike Morales</Navbar.Brand>
+          <Container>
+            <Navbar.Brand href="/">
+              <img src={logo} alt="Mike Morales" width="30%" height="30%"/>
+            </Navbar.Brand>
+          </Container>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
               <Nav className = "navbar-links">
-                {/* <Link className="nav-link" to="/">Home</Link>
-                <Link className="nav-link" to="/experience">Experience</Link>
-                <Link className="nav-link" to="/resume">Resume</Link>
-                <Link className="nav-link" to="/about">About</Link> */}
                 <HashLink className="nav-link" smooth to={'/#home'}>Home</HashLink>
                 <HashLink className="nav-link" smooth to={'/#experience'}>Experience</HashLink>
                 <HashLink className="nav-link" smooth to={'/#about'}>Resume</HashLink>
                 <HashLink className="nav-link" smooth to={'/#about'}>About</HashLink>
-                <HashLink className="nav-link" smooth to={'/#contact'}>Contact Me</HashLink>
+                <HashLink className="nav-link" smooth to={'/#contact'}>Contact</HashLink>
               </Nav>
             </Navbar.Collapse>
           </Navbar>
